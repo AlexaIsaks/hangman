@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+<h1 align="center">Hangman Game</h1>
+The purpose of the project was to build the Hangman game using React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [About the Project](#about-the-project)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Game Instructions](#game-instructions)
+* [Acknowledgments](#acknowledgments)
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![](https://img.shields.io/badge/React-brightgreen) ![](https://img.shields.io/badge/Bootstrap-green) ![](https://img.shields.io/badge/SASS-yellowgreen) 
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There are key elements required for this task to showcase the skills learnt in the course to date. <br>
 
-### `npm run build`
+* React
+    - Components
+    - Handling Events
+    - Managing State
+* Styling
+    - Bootstrap 5
+    - SASS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Select the green **Code** button  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ![code button](./readme-images/code-button.jpg)
 
-### `npm run eject`
+* Select HTTPS and copy the URL 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  ![clone repo](./readme-images/clone.jpg) 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Open Git Bash.
+* Change to the directory/folder where you want to clone the repository.
+* To clone the repository, type `git clone` followed by the URL. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  `$ git clone https://github.com/AlexaIsaks/hangman.git`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Press **Enter**. The repository will be cloned in your folder.
 
-## Learn More
+  ![cloned repo](./readme-images/cloned-repo.jpg) 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Open the hangman folder in your favourite code editor.
 
-### Code Splitting
+* If you are using Visual Studio Code, open the built-in terminal and cd into the folder. Otherwise use your command prompt terminal. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Enter **npm install** to install all the node modules.
 
-### Analyzing the Bundle Size
+  ![live server](./readme-images/jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Enter **npm start** to run the application.
 
-### Making a Progressive Web App
+  ![live server](./readme-images/npm-start.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* The hangman application should open up in your browser.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="center"><img alt="index page" src="./readme-images/hangman-1.jpg" width="600"></p>
+<p align="center"><img alt="index page" src="./readme-images/hangman-2.jpg" height="400"></p>
+<p align="center"><img alt="index page" src="./readme-images/hangman-3.jpg" width="600"></p>
 
-### Deployment
+## Game Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* The player needs to guess the right letters before the hangman picture is completed.
+* To choose a letter, click on the keyboard.
+* If the correct letter is chosen, the position of letter will be revealed.
+* If an incorrect letter is chosen, part of the hangman picture will be drawn.
+* To win the game, the word must be completed before the hangman picture is fully drawn.
+* Player loses the game, when the hangman picture is fully drawn.
+* Start New Game
+  * Click the "New Game" button to start a new game.
+  * Scores will be kept.
+* Reset Game
+  * To start a fresh game, click on the "Reset" button.
+  * This will remove all the scores.
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**HyperionDev**
+
+Certified Full Stack Web and Software Engineer 
+

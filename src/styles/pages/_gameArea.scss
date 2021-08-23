@@ -1,0 +1,10 @@
+// Hangman
+.hangman-container {
+  transform: scale(0.7, 0.7);
+}
+
+.hangman {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}

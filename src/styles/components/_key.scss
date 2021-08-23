@@ -1,0 +1,17 @@
+// Key component
+.key {
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+// Correct key/letter is selected
+.key--correct-letter {
+  border: 2px solid $tomato;
+  color: $tomato;
+}
+
+// Incorrect key/letter is selected
+.key--incorrect-letter {
+  border: 1px solid $grey;
+  color: $grey;
+}

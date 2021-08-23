@@ -1,0 +1,43 @@
+// Colours
+$charcoal: #2c3531;
+$grey: #5e5656;
+$tomato: #f13c20;
+$peach: #ffcb9a;
+
+// Text Colour
+.text-tomato {
+  color: $tomato;
+}
+
+.text-peach {
+  color: $peach;
+}
+
+// Background colour
+.bg-charcoal {
+  background-color: $charcoal;
+}
+
+// Border colour
+.border-peach {
+  border: 1px solid $peach;
+}
+
+.border-tomato {
+  border: 1px solid $tomato;
+}
+
+//Media queries and breakpoints
+//Breakpoint reference: https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+$breakpoints: (
+  "extra-small": "max-width: 600px",
+  //Extra small devices: phones
+  "small": "min-width: 600px",
+  //Small devices: portrait tablets, large phones
+  "medium": "min-width: 768px",
+  //Medium devices: landscape tablets
+  "large": "min-width: 992px",
+  //Large devices: desktops, laptops
+  "extra-large": "min-width: 1200px"
+    //Extra large devices: large laptops, desktops,
+);

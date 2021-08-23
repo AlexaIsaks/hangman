@@ -1,0 +1,14 @@
+// Keyboard component
+.keyboard {
+  width: 100%;
+
+  @include media-query("medium") {
+    width: 50%;
+  }
+}
+
+// Disable keyboard
+.disabled-keyboard {
+  pointer-events: none;
+  cursor: default;
+}

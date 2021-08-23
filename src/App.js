@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route } from "react-router-dom";
+import "./styles/App.scss";
+import GameArea from "./components/pages/GameArea";
+import Help from "./components/pages/Help";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="p-2 bg-charcoal">
+        <Route exact path="/">
+          <GameArea />
+        </Route>
+        <Route path="/help">
+          <Help />
+        </Route>
+      </div>
+    </BrowserRouter>
   );
 }
 

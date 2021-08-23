@@ -1,0 +1,11 @@
+// Helpers
+@import "helpers/variables";
+@import "helpers/mixins";
+
+// Pages
+@import "pages/gameArea";
+
+// Components
+@import "components/letterBlock";
+@import "components/keyboard";
+@import "components/key";
