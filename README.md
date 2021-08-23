@@ -36,7 +36,7 @@ There are key elements required for this task to showcase the skills learnt in t
 
 * Select HTTPS and copy the URL 
 
-  ![clone repo](./readme-images/clone.jpg) 
+  ![clone repo](./readme-images/copy-button.jpg) 
 
 * Open Git Bash.
 * Change to the directory/folder where you want to clone the repository.
@@ -46,7 +46,7 @@ There are key elements required for this task to showcase the skills learnt in t
 
 * Press **Enter**. The repository will be cloned in your folder.
 
-  ![cloned repo](./readme-images/cloned-repo.jpg) 
+  ![cloned repo](./readme-images/clone.jpg) 
 
 ## Usage
 
@@ -56,7 +56,7 @@ There are key elements required for this task to showcase the skills learnt in t
 
 * Enter **npm install** to install all the node modules.
 
-  ![live server](./readme-images/jpg)
+  ![live server](./readme-images/npm-install.jpg)
 
 * Enter **npm start** to run the application.
 
