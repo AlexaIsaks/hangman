@@ -65,9 +65,9 @@ There are key elements required for this task to showcase the skills learnt in t
 * The hangman application should open up in your browser.
 
 
-<p align="center"><img alt="index page" src="./readme-images/hangman-1.jpg" width="600"></p>
-<p align="center"><img alt="index page" src="./readme-images/hangman-2.jpg" height="400"></p>
-<p align="center"><img alt="index page" src="./readme-images/hangman-3.jpg" width="600"></p>
+<p align="center"><img alt="Hangman desktop" src="./readme-images/hangman-desktop.png" width="600"></p>
+<p align="center"><img alt="Hangman mobile" src="./readme-images/hangman-mobile.png" height="400"></p>
+<p align="center"><img alt="Hangman instructions desktop" src="./readme-images/hangman-instructions-desktop.png" width="600"></p>
 
 ## Game Instructions
 
